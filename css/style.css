@@ -1,0 +1,156 @@
+/* general */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 900px;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: #87cefa;
+  color: #ffefd5;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.menu {
+  text-decoration: none;
+  color: #ffefd5;
+  margin-right: 20px;
+}
+
+.menu:hover {
+  color: #6495ed;
+}
+
+.login {
+  text-decoration: none;
+  color: #ffefd5;
+  margin-right: 20px;
+}
+
+.login:hover {
+  color: #6495ed;
+}
+
+.feedback {
+  text-decoration: none;
+  color: #ffefd5;
+  margin-right: 20px;
+}
+
+.feedback:hover {
+  color: #6495ed;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: #e0ffff;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: 3px solid #87cefa;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #87cefa;
+}
+
+.sidebar a:hover {
+  color: #191970;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* content */
+.content {
+  height: 880px;
+  width: 1265px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.image-container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 800px;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  width: 200px;
+  height: 250px;
+  margin: 50px 50px;
+  border: 1px solid #87cefa;
+  border-radius: 10px;
+  box-shadow: 5px 5px 13px rgba(31, 119, 226, 0.7);
+  transition: transform 0.3s;
+}
+
+.content img:hover {
+  transform: scale(1.3);
+}
+
+/* footer */
+footer {
+  display: flex;
+  background-color: #87cefa;
+  color: #ffefd5;
+  padding: 20px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-column a:hover {
+  color: #6495ed;
+}
